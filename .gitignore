@@ -1,0 +1,13 @@
+backup/
+ops.json
+versions/
+whitelist.json
+world/
+libraries/
+logs/
+banned-ips.json
+banned-players.json
+.fabric/
+usercache.json
+bluemap/
+fabricloader.log
