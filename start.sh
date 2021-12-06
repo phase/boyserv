@@ -2,10 +2,11 @@
 
 while true
 do
-  DATE=$(date +"%d-%b-%Y-%H-%M-%S")
-  mkdir -p backup/
-  tar -zcvf world-$DATE.tgz world
-  mv *.tgz backup/
+  # todo: automated backups
+  #DATE=$(date +"%d-%b-%Y-%H-%M-%S")
+  #mkdir -p backup/
+  #tar -zcvf world-$DATE.tgz world
+  #mv *.tgz backup/
 
   git reset --hard HEAD
   git pull

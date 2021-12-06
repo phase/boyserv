@@ -3,7 +3,6 @@ ops.json
 versions/
 whitelist.json
 world/
-libraries/
 logs/
 banned-ips.json
 banned-players.json
